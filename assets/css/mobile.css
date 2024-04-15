@@ -3,24 +3,42 @@ body{
     width: 100vw;
     height: 100vh;
     display: grid;
-    place-content: center;
+    justify-content: center;
+    margin-top: 24px;
 }
 
 section{
     width: 327px;
-    height: 440px;
-    padding: 35px;
+    height: 500px;
+    padding: 40px;
     display: grid;
     align-items: center;
 }
 
 #card__sedans{
     background-color: var(--BrightOrange);
+    border-radius: 15px 15px 0 0;
+}
+#card__sedans button{
+    color: var(--BrightOrange);;
 }
 #card__suvs{
     background-color: var(--DarkCyan);
 }
+#card__suvs button{
+    color: var(--DarkCyan);
+}
 #card__luxury{
     background-color: var(--VeryDarkCyan);
-    
+    border-radius: 0 0 15px 15px;
+}
+#card__luxury button{
+    color: var(--VeryDarkCyan);
+}
+
+button{
+    width: 150px;
+    height: 54px;
+    border-radius: 25px;
+    border: none;
 }
