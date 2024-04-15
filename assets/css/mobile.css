@@ -1,0 +1,26 @@
+@import url("default.css");
+body{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+section{
+    width: 327px;
+    height: 440px;
+    padding: 35px;
+    display: grid;
+    align-items: center;
+}
+
+#card__sedans{
+    background-color: var(--BrightOrange);
+}
+#card__suvs{
+    background-color: var(--DarkCyan);
+}
+#card__luxury{
+    background-color: var(--VeryDarkCyan);
+    
+}
