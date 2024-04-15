@@ -1,0 +1,15 @@
+@import url("default.css");
+@import url("mobile.css");
+
+body{
+    place-content: center;
+}
+.card{
+    display: flex;
+}
+#card__sedans{
+    border-radius: 15px 0  0 15px;
+}
+#card__luxury{
+    border-radius: 0 15px 15px 0;
+}
